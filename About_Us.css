@@ -1,0 +1,198 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html body {
+    height: 100%;
+    width: 100%;
+}
+
+/* designing start */
+
+.header_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+    /* background-color: aquamarine; */
+    gap: 40px;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    position: fixed;
+    z-index: 999;
+}
+.nav a{
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav a:hover{
+    color: rgb(93, 113, 246);
+}
+.navlink{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 115%;
+}
+.nav svg{
+    width: 25%;
+}
+#login{
+    display: flex;
+    align-items: center;
+}
+#login a{
+    padding-left: 10%;
+}
+
+.main_about{
+    padding-top: 80px;
+}
+#about {
+    font-size: 3.8rem;
+    letter-spacing: 10px;
+}
+
+#us {
+    font-size: 3.8rem;
+    font-weight: 100;
+}
+
+#press_img {
+    width: 390px;
+    height: 460px;
+    object-fit: cover;
+    position: absolute;
+    top: 28%;
+    left: 12%;
+}
+
+/*  */
+
+.control_mainContent {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#border {
+    width: 390px;
+    height: 460px;
+    border: 3px solid rgb(93, 113, 246);
+    /* z-index: 99; */
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+.image_content p {
+    font-weight: 100;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    line-height: 30px;
+    word-spacing: 10px;
+    opacity: .7;
+}
+
+
+/* second part */
+
+.border2 {
+    width: 390px;
+    height: 460px;
+    border: 3px solid rgb(93, 113, 246);
+    position: absolute;
+    right: 5%;
+    top: 75%;
+}
+
+#shoes_wending {
+    width: 327px;
+    height: 226px;
+    object-fit: cover;
+    position: absolute;
+    right: 12%;
+    top: 80%;
+}
+
+#shoes_maker {
+    width: 361px;
+    height: 399px;
+    object-fit: cover;
+    position: absolute;
+    right: 17%;
+    top: 112%;
+}
+
+.image_content_2 p{
+    font-weight: 100;
+    opacity: .7;
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    line-height: 30px;
+    word-spacing: 6px;
+}
+
+/* footer content */
+
+.footer{
+    height: 7rem;
+    width: 100%;
+    background-color: rgb(93, 113, 246);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 180%;
+}
+
+.footer_details{
+    line-height: 25px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0 100px;
+}
+
+.footer_details p{
+    font-weight: 100;
+}
+
+.footer_timing_data p{
+    font-weight: 100;
+}
+
+#stretch{
+    transform: scale(1.4, 1.4);
+}
+
+.footer_content{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(93, 113, 246);
+    color: white;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 192%;
+}
